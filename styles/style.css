@@ -1,0 +1,148 @@
+/*---------------------------------------
+fonts
+----------------------------------------*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;   
+}
+/*----------------------------------
+ banner
+ -----------------------------------*/
+.top-banner{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 50px;
+    margin-left: 170px;
+    padding-left: 100px;
+    padding-right: 70px;
+    padding-top: 15px;
+    border-radius: 15px;
+    width: 60%;
+}
+.greatest-show{
+    font-size: 50px;
+}
+.btn{
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.banner{
+    width: 100%; 
+}
+/* /* .three-btn{
+    background-color: black; */
+
+.match-btn{
+ text-decoration: none;
+}
+.transfer-btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 15px;
+    /* margin-top: 20px; */
+}
+.icon{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: first baseline;
+}
+.football{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+}
+.icons{
+    margin: 10px;
+}
+.messege{
+    margin: 15px;
+}
+.transfer-live{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+.match{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: 12px;
+}
+.Group{
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 50px;
+}
+.Blog{
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: rgb(253, 4, 4);
+    margin-top: 50px;
+    
+}
+.upcoming{
+    background-color: black;
+    padding: 20px;
+    width: 25%
+    height: 300px;
+    border-radius: 5px;
+    display: block;   
+}
+/* footer  */
+footer{
+    background-color: black;
+    color: white;
+}
+.goal{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.footer-paragraph{
+    display: flex;
+    justify-content: center;
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    padding: 0 5px 0 5px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+.contact{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+
+}
